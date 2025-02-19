@@ -1,6 +1,7 @@
-import { useNavigate } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 export function DescCard(){
+    const {id}=useParams();
     const navigate = useNavigate();
     const handleClick=()=>{
         navigate(`/country`)
