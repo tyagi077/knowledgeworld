@@ -7,6 +7,18 @@ export function MainContent() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-7">
             <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
+            <div><Card name={"World"} padding={"p-4"} display={"hidden"} capital={"No Capital"} population={"Null"} intrestingFact={"There are 195 countries in the world today. including 193 United Nations member states and 2 observer states."} /></div>
            
         </div>
     </div>
