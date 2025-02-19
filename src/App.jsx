@@ -15,8 +15,8 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/country" element={<Country />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="*" element={<NotFound/>} />
       <Route path="/description/:id" element={<NotFound />} />
+      <Route path="*" element={<NotFound/>} />
     </Routes >
     <NavBar title={"Copyright 2024. All Right Reserved"} link2={"Social"} link3={"Source Code"} />
   </div>
