@@ -7,6 +7,5 @@ export function Home() {
     return <div className="flex flex-col flex-wrap">
         <Hero />
         <MainContent />
-        <Footer />
      </div>
 }

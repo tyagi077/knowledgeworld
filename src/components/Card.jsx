@@ -1,18 +1,17 @@
 import { Link, NavLink, useNavigate } from "react-router-dom";
 
 export function Card(props){
-    const id =1
-
+    const name =props.worldname
         const navigate=useNavigate();
 
         const handleClick=()=>{
-            navigate(`/description/${id}`)
+            navigate(`/description/${name}`)
         }
     
-    return <div className={`bg-[#141217] border-1 border-[#3b373f] rounded-3xl space-y-1 ${props.padding}`}>
+    return <div className={`bg-[#141217] border-1 border-[#3b373f] rounded-3xl space-y-1  ${props.padding} `}>
         <div>
-        <div className={`w-full bg-amber-100 ${props.display}`}>
-            <img src="https://media.istockphoto.com/id/961747352/vector/the-united-states-of-america-flag-vector-illustration.jpg?s=612x612&w=0&k=20&c=jjW899DUKnSFzw-eQMah4WGLcqIXKcluuZ7zV1VjJi0=" alt="" />
+        <div className={`bg-amber-100 ${props.display}`}>
+            <img className="w-full max-w-100 h-30" src={props.image} alt="" />
             </div>
         </div>
         <div className="text-2xl font-medium mt-4 w-full max-w-34 truncate">
