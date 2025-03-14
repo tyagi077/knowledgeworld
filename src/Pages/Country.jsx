@@ -30,6 +30,7 @@ export function Country() {
     const handleChange = (e) => {
         e.preventDefault()
         setSearch(e.target.value)
+        
     }
 
 
